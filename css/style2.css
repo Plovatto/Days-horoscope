@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+/* ./imagens home/imagemhome.svg*/
+.header{
+    width:100%;
+    height: 14vh;
+    background-color: hsl(0, 0%, 0%, 0.25);
+    backdrop-filter: blur(7.5px);
+    z-index: 5;
+    position: fixed;
+    bottom: 84vh;
+    top: 0;
+
+   
+}
+header{
+    width:100% ;
+    
+    
+}
+#mudar{
+    height: 8vh;
+    width: 80vh;
+        border: 3px solid #34466A;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    
+    }
+.naosei{
+    display: flex;
+    justify-content: center;
+}
+#mudartext{
+  color: #192644; 
+  font-weight: 500; 
+  padding: 2vh;
+}
+#mudar:hover{
+background-color: #192644;
+color: #fff;
+}
+#mudartext:hover{
+    background-color: #192644;
+    color: #fff;
+    }
+#espaco{
+    line-height: 1.7;
+}
+span{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+}
+pre{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+.imagem{
+    width:100% ;
+   
+   z-index: 0;
+}
+#imagem{
+    background-image: url(../imagens\ home/horoscope.svg);
+    background-position:left;
+    background-position: bottom;
+    background-size: cover;
+    width:100%;
+    margin-bottom: 9vh;
+    top: 0;
+    height: 75vh;
+   bottom: 7vh;
+   z-index: 0;
+}
+#quebra{
+    visibility: hidden;
+}
+#logo{
+    margin: 1vw;
+}
+.texto{
+   font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    width: 80vw;
+    text-align: start;
+  margin-left: 8vw;
+position: relative;
+bottom: 10vh;
+  
+}
+#bot{
+    display: none;
+}
+
+.signs{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vh;
+  
+    margin-left: 7.8vw;
+  
+}
+
+#diahor{
+    margin: 5vh;
+    margin-left: 8vw;
+
+}
+#textsign{
+    font-size: 2.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 80vw;
+    
+}
+
+#span{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+}
+
+.horoscopo{
+    
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 0;
+    flex-wrap: wrap;
+   position: relative;
+   bottom: 20vh;
+   width: 110vw;
+}
+
+.horoscopo a img{
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+.horoscopo2{
+    visibility: hidden;
+    width: 80vw ;
+    padding-left: 3vw;
+   
+
+}
+img{
+    margin-left: 5vw;
+}
+.signo{
+    margin: 1vw;
+    flex-wrap: wrap;
+}
+.link{
+    text-decoration:underline;
+    font-size: 2vh;
+    position: relative;
+    top: 26vh;
+}
+
+footer{
+    margin-top: 15vh;
+    bottom: 0;
+    background: #0E182D;
+    width:100vw ;
+    height: 15vh;
+}
+
+#logo2{
+    margin-left: 68vw;
+    margin-top: 3vh;
+}
+
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+}
+
+a:hover{
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    font-weight: 600;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 6vh;
+    margin-right: 6vh;
+    
+}
+.imge{
+    visibility: hidden;
+    }
+#names{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vh;
+    margin-left: 8vw;
+}
+.aries{
+    display: flex;
+    margin-left: 6vw;
+}
+.flex{
+    display: flex;
+}
+#menu a{
+display: block;
+line-height: 5vh;
+}
+
+@media(max-width:1300px){
+
+    #imagem{
+        margin-top: -4vh;
+        background-position: left;
+    }
+
+.header{
+    
+    height: 15vh;
+    position: fixed;
+    bottom: 83vh;
+    top: 0;
+}}
+@media(max-width:1180px){
+  
+    #imagem{
+        width: 100%;
+       z-index: 0;
+       position: relative;
+       bottom: 20vh;
+    }
+    .header{
+        height: 15vh;
+        position: fixed;
+        bottom: 83vh;
+    }
+    nav{
+        margin-top: 2vh;
+    }
+    #logo{
+        padding-top: 3vh;
+    }
+    .texto{
+        position: relative;
+    }
+  
+    }
+
+    @media(max-width:800px){
+      
+        #imagem{
+            
+            width: 100%;
+           height: 60vh;
+           z-index: 0;
+  position: relative;
+  bottom: 20vh;
+        }  #mudar{
+height: 7vh;
+width: 60vw;
+    }
+    #diahor{
+        padding-bottom: 4vh;
+    }
+    #mudartext{
+        font-size: 2.5vh;
+    }
+        #bot{
+            margin-top: 2.5vh;
+        }
+        .header{
+            width: 100vw;
+            height: 13vh;
+            position: fixed;
+            bottom:220vh;
+            z-index: 8;
+        }
+        .texto{
+            position: relative;
+            width: 90vw;
+        }
+        .signos{
+            margin: 0;
+            position: relative;
+            bottom: 10vh;
+        }
+        }
+    
+    @media(max-width:550px){
+      
+        #imagem{
+            width: 100%;
+           height: 80vh;
+           z-index: 0;
+  position: relative;
+  bottom: 28vh;
+        }
+        .header{
+            height: 10vh;
+            position: fixed;
+            bottom: 162vh;
+            
+        }
+        .texto{
+            position: relative;
+        }
+        .signos{
+            margin: 0;
+            position: relative;
+            
+        }
+        
+        }
+       
+        
+        @media(max-width:500px){
+      
+            #imagem{
+                width: 100%;
+               height: 90vh;
+               z-index: 0;
+      position: relative;
+      bottom: 34vh;
+            }
+            .header{
+                height: 10vh;
+                position: fixed;
+                bottom: 182vh;
+            }
+            .texto{
+                position: relative;
+                width: 100vw;
+            }
+            .link{
+
+                z-index: 35;
+                }
+            }
+            @media(max-width:412px){
+      
+                #imagem{
+                    
+                    width: 100%;
+                   height: 90vh;
+                   z-index: 0;
+          position: relative;
+          bottom: 30vh;
+                }
+                .texto{
+                    position: relative;
+                    font-size: 2vh;
+                    width: 50vw;
+                }
+                .horoscopo{
+    
+                    display: flex;
+                    margin-left: 0;
+                    margin-right: 0;
+                    flex-wrap: wrap;
+                }
+                .signos{
+                    margin: 0;
+                    position: relative;
+                    
+                    margin: 0;
+                    width: 80vh;
+                    margin-left: 0;
+                }
+                .header{
+                    height: 10vh;
+                    position: fixed;
+                    bottom: 83vh;
+                    z-index: 50;
+                }
+                .link{
+                    margin-left: 15vw;
+                    z-index: 5;
+                }
+            }
+                @media(max-width:550px){
+                 #mudar{
+                    height: 7vh;
+                    width: 60vw;
+                        }
+                        #mudartext{
+                            font-size: 2vh;
+                        }
+                    #menu{
+                        display: block;
+                        position: absolute;
+                        width: 100%;
+                        
+                        top: 10vh;}
+
+           #imagem{
+                        width: 100%;
+                     height: 40vh;
+                       z-index: 0;
+              position: relative;
+              bottom: 8vh;
+                    }
+                    .signos{
+                        margin: 0;
+                        position: relative;
+                        
+                        margin: 0;
+                        width: 80vh;
+                        margin-left: 0;
+                    }
+                    .texto{
+                        margin-top: 15vh;
+                       font-size: 1.3vh;
+                      
+                    }
+                    
+                    header{
+                        height: 10vh;
+                    }
+                    #bot{
+                        margin-top: 1vh;
+                    }
+                    .horoscopo{
+                        visibility: hidden;
+
+                    }
+                    #foda-se{
+                        visibility: visible;
+                    }
+                    .horoscopo2{
+    
+                        display: flex;
+                        margin-left: 3vw;
+                        margin-right: 0;
+                        flex-wrap: wrap;
+                        visibility: visible;
+                       
+
+                    }
+                    .link{
+                        z-index: 6;
+
+                    }
+                    footer{
+                        z-index: 3;
+                    }
+                    .signos{
+                        width: 90vw;
+                        height: 50vh;
+                    }
+                    .signo{
+                        margin-left: 3vh;
+                    }
+                    .header{
+                        height: 10vh;
+                        position: fixed;
+                        bottom: 181vh;
+                        z-index: 10;
+                        width: 100vw;
+                    }
+                    a:hover{
+                        background: rgba(255, 255, 255, 0.7);
+                        color: #000;
+                        font-weight: 600;
+                    }
+                    #menu{
+                        
+                        right: 0;
+                        left: 0;
+                    }
+                    
+                    footer{
+                        z-index: 5;
+                    }
+            } 
+            @media(max-width: 800px){
+         
+            #logo{
+visibility: hidden;
+            }
+          #menu{
+            display: block;
+            position: absolute;
+            width: 100%;
+            margin-right: 0;
+            
+            right: 0;
+            background-color: hsl(0, 0%, 0%, 0.6);
+            backdrop-filter: blur(9px);
+            height: 0;
+            transition: .6s;
+            z-index: 100;
+            visibility: hidden;
+            overflow-y: hidden;
+          }
+
+          #nav{
+            margin-top: -1vh;
+          }
+        
+
+          #nav.active #menu{
+            
+            visibility: visible;
+            overflow-y: auto;
+            height: 100vh;
+          }
+          #menu a{
+           padding:4vh;
+           border-bottom: 2px solid #000;
+          }
+          #bot{
+            display: flex;
+            margin-right: 4vh;
+            background-color: hsl(0, 0%, 100%,0.0);
+            border: none;
+            margin-bottom: 1vh;
+          }
+          .texto{
+            font-weight: 400;
+             font-family: 'Montserrat', sans-serif;
+             font-size: 2.5vh;
+             width: 80vw;
+             text-align: start;
+           margin-left: 8vw;
+         position: relative;
+
+           
+         }
+            }
