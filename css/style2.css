@@ -17,6 +17,18 @@ header{
     width:100% ;
     
     
+}.branco{
+    color: #fff;
+width: 200px;
+height: 200px;
+position: absolute;bottom: 90px;
+z-index: 4;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 #mudar{
     height: 8vh;
